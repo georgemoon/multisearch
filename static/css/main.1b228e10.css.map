@@ -1,0 +1,1 @@
+{"version":3,"sources":["App.css"],"names":[],"mappings":"AAAA,KACE,qBAAuB,CAGzB,aACE,qBAAuB,CAGzB,mBACE,wBAA0B","file":"static/css/main.1b228e10.css","sourcesContent":["body {\n  background-color: #eee;\n}\n\n.search-form  {\n  background-color: #fff;\n}\n\n.search-form label {\n  text-transform: uppercase;\n}\n\n\n\n// WEBPACK FOOTER //\n// ./src/App.css"],"sourceRoot":""}
