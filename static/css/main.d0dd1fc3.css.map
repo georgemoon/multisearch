@@ -1,0 +1,1 @@
+{"version":3,"sources":["App.css"],"names":[],"mappings":"AAAA,KACE,qBAAuB,CAGzB,aACE,qBAAuB","file":"static/css/main.d0dd1fc3.css","sourcesContent":["body {\n  background-color: #eee;\n}\n\n.search-form  {\n  background-color: #fff;\n}\n\n\n\n// WEBPACK FOOTER //\n// ./src/App.css"],"sourceRoot":""}
