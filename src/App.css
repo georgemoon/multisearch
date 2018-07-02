@@ -5,3 +5,7 @@ body {
 .search-form  {
   background-color: #fff;
 }
+
+.search-form label {
+  text-transform: uppercase;
+}
