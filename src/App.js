@@ -26,7 +26,7 @@ class App extends Component {
     window.open(`http://translate.google.com/translate?hl=en&sl=fr&tl=en&u=http%3A%2F%2Fwww.google.fr%2Fsearch%3Fq%3D${query}%26num%3D10%26hl%3Dfr%26site%3Dimghp%26tbm%3Disch%26sout%3D1%26biw%3D1242%26bih%3D640`);
     window.open(`http://fr.forvo.com/word/${query}/#fr`);
     window.open(`http://www.linguee.com/english-french/search?source=french&query=${query}`);
-    window.open(`http://translate.google.com/translate?sl=fr&tl=en&prev=_t&hl=en&ie=UTF-8&eotf=1&u=http://fr.wiktionary.org/wiki/${query}&act=url`);
+    window.open(`http://fr.wiktionary.org/wiki/${query}&act=url`);
 
     this.setState({ search: '' });
 
