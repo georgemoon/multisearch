@@ -23,9 +23,9 @@ class App extends Component {
     const { search } = this.state;
     const query = encodeURIComponent(search);
 
+    window.open(`https://www.google.com/search?q=${query}&lr=lang_es&tbm=isch`);
+    window.open(`http://es.wiktionary.org/wiki/${query}`);
     window.open(`http://es.forvo.com/word/${query}/#es`);
-    window.open(`http://fr.wiktionary.org/wiki/${query}`);
-    window.open(`https://www.wordreference.com/es/en/translation.asp?spen=${query}`);
 
     this.setState({ search: '' });
 
