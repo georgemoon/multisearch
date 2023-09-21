@@ -23,10 +23,9 @@ class App extends Component {
     const { search } = this.state;
     const query = encodeURIComponent(search);
 
-    window.open(`http://translate.google.com/translate?hl=en&sl=fr&tl=en&u=http%3A%2F%2Fwww.google.fr%2Fsearch%3Fq%3D${query}%26num%3D10%26hl%3Dfr%26site%3Dimghp%26tbm%3Disch%26sout%3D1%26biw%3D1242%26bih%3D640`);
-    window.open(`http://fr.forvo.com/word/${query}/#fr`);
-    window.open(`http://www.linguee.com/english-french/search?source=french&query=${query}`);
+    window.open(`http://es.forvo.com/word/${query}/#es`);
     window.open(`http://fr.wiktionary.org/wiki/${query}`);
+    window.open(`https://www.wordreference.com/es/en/translation.asp?spen=${query}`);
 
     this.setState({ search: '' });
 
@@ -41,7 +40,7 @@ class App extends Component {
           <form className="search-form my-5 p-5" onSubmit={ this.handleSubmit }>
             <div className="form-group">
               <label htmlFor="search">
-                Rechercher un mot français
+                Enter a Spanish word
               </label>
               <input type="text" className="form-control" name="search" id="search" autoFocus value={ this.state.search } onChange={ this.handleChange }/>
             </div>
